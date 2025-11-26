@@ -1,6 +1,6 @@
 class Soldier:
 	def __init__(self, personal_id, first_name, last_name,
-				 gender, city, distance_km, status, pazam=0):
+				 gender, city, distance_km, status):
 		self.personal_id = personal_id
 		self.first_name = first_name
 		self.last_name = last_name
@@ -8,8 +8,7 @@ class Soldier:
 		self.city = city
 		self.distance_km = distance_km
 		self.status = status  
-		# self.pazam = pazam
-		# יתעדכן אחרי שיבוץ
+	
 		self.assigned = False
 		self.dorm = None
 		self.room = None
